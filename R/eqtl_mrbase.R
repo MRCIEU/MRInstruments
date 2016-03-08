@@ -7,22 +7,22 @@
 #'
 #' @format A data frame with 273700 rows and 16 columns
 #'	\describe{
-#'	\item{gene_name}{Gene name}
-#'	\item{tissue}{Tissue}
-#'	\item{gene_start}{Gene chromosome : gene start position (b37)}
-#'	\item{SNP}{SNP rs ID}
-#'	\item{snp_position}{SNP chromosome : SNP position (b37)}
-#'	\item{effect_allele}{Effect allele}
-#'	\item{other_allele}{Non effect allele}
-#'	\item{beta}{Effect size}
-#'	\item{se}{Standard error}
-#'	\item{P_value}{p-value}
-#'	\item{n}{samplesize}
-#'	\item{drug_proxy}{Binary value for whether used as drug proxy}
-#'	\item{MeSH1}{MeSH term 1}
-#'	\item{MeSH2}{Top MeSH term}
-#'	\item{drug_phase}{Phase of drug development}
-#'	\item{approved}{Approved in EU or US}
+#'		\item{gene_name}{Gene name}
+#'		\item{tissue}{Tissue}
+#'		\item{gene_start}{Gene chromosome : gene start position (b37)}
+#'		\item{SNP}{SNP rs ID}
+#'		\item{snp_position}{SNP chromosome : SNP position (b37)}
+#'		\item{effect_allele}{Effect allele}
+#'		\item{other_allele}{Non effect allele}
+#'		\item{beta}{Effect size}
+#'		\item{se}{Standard error}
+#'		\item{P_value}{p-value}
+#'		\item{n}{samplesize}
+#'		\item{drug_proxy}{Binary value for whether used as drug proxy}
+#'		\item{MeSH1}{MeSH term 1}
+#'		\item{MeSH2}{Top MeSH term}
+#'		\item{drug_phase}{Phase of drug development}
+#'		\item{approved}{Approved in EU or US}
 #'	}
 #'
 #' @source \url{https://scmv-ieugit.epi.bris.ac.uk/gh13047/gtex_data}
