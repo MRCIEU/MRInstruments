@@ -1,5 +1,15 @@
 # MRInstruments
 
+This is an R package that contains a number of data files from various sources to provide instruments in two sample MR. To install this package use:
+
+```r
+devtools::install_github("MRCIEU/MRInstruments")
+```
+
+For more information about performing two sample MR see [https://github.com/MRCIEU/TwoSampleMR](https://github.com/MRCIEU/TwoSampleMR)
+
+## Maintenance
+
 To add a dataset copy to `/data` as a `.RData` file, and create a corresponding `.R` file in `/R` to enter the documentation for the data. For example, the GTEx data set is documented like this in the `R/eqtl_mrbase.R` file:
 
 ```r
