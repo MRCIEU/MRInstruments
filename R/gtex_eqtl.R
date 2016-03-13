@@ -2,7 +2,6 @@
 #'
 #' A total of 273700 Gene expression - SNP associations from 27094 gene names and 44 tissues. Obtained from \url{http://www.gtexportal.org/home/}.
 #' These data only include associations that GTEx labelled as \code{is_choson_snp}.
-#' Where available, genes that are used as drug targets are annotated
 #'
 #' @format A data frame with 187263 rows and 11 columns
 #'	\describe{
