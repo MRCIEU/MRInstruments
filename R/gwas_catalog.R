@@ -1,22 +1,29 @@
 #' Data frame of GWAS significant SNPs obtained from the EBI GWAS catalog
 #'
+#' Downloaded from EBI on 18/03/2016
+#' Standardised to make units as consistent as possible, trait names, obtain gene annotation
+#' Effect sizes and standard errors are all converted to log odds ratio for binary traits
+#' Ensembl used to identify alleles and effect allele frequency where missing
 #'
-#' @format A data frame with 22271 rows and 14 columns
+#' @format A data frame with 22783 rows and 17 columns
 #'	\describe{
-#' 		\item{Phenotype}{Phenotype}
-#' 		\item{Phenotype info}{Phenotype info}
-#' 		\item{PubmedID}{PubmedID}
-#' 		\item{Year}{Year}
-#' 		\item{SNP}{SNP}
-#' 		\item{Region}{Region}
-#' 		\item{Gene}{Gene}
-#' 		\item{Allele}{Allele}
-#' 		\item{Effect}{Effect}
-#' 		\item{SE}{SE}
-#' 		\item{P-value}{P-value}
-#' 		\item{Units}{Units}
-#' 		\item{eaf}{eaf}
-#' 		\item{other_allele}{other_allele}
+#' \item{Phenotype}{Phenotype}
+#' \item{Phenotype_info}{Phenotype_info}
+#' \item{PubmedID}{PubmedID}
+#' \item{Year}{Year}
+#' \item{SNP}{SNP}
+#' \item{chr}{chr}
+#' \item{bp_ens_GRCh38}{bp_ens_GRCh38}
+#' \item{Region}{Region}
+#' \item{Gene}{Gene}
+#' \item{Gene_ens}{Gene_ens}
+#' \item{effect_allele}{effect_allele}
+#' \item{other_allele}{other_allele}
+#' \item{Effect}{Effect}
+#' \item{SE}{SE}
+#' \item{P_value}{P_value}
+#' \item{Units}{Units}
+#' \item{eaf}{eaf}
 #'	}
 #'
 #' @source \url{https://scmv-ieugit.epi.bris.ac.uk/gh13047/gwas_catalog_standardisation}
