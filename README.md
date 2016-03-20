@@ -8,6 +8,17 @@ devtools::install_github("MRCIEU/MRInstruments")
 
 For more information about performing two sample MR see [https://github.com/MRCIEU/TwoSampleMR](https://github.com/MRCIEU/TwoSampleMR)
 
+## Contents
+
+- `aries_mqtl`: [https://scmv-ieugit.epi.bris.ac.uk/gh13047/aries_mqtl_catalog](https://scmv-ieugit.epi.bris.ac.uk/gh13047/aries_mqtl_catalog)
+- `drug_interactions`: [https://scmv-ieugit.epi.bris.ac.uk/gh13047/gtex_data](https://scmv-ieugit.epi.bris.ac.uk/gh13047/gtex_data)
+- `gene_trials`: [https://scmv-ieugit.epi.bris.ac.uk/gh13047/gtex_data](https://scmv-ieugit.epi.bris.ac.uk/gh13047/gtex_data)
+- `gtex_eqtl`: [https://scmv-ieugit.epi.bris.ac.uk/gh13047/gtex_data](https://scmv-ieugit.epi.bris.ac.uk/gh13047/gtex_data)
+- `gwas_catalog`: [https://scmv-ieugit.epi.bris.ac.uk/gh13047/gwas_catalog_standardisation](https://scmv-ieugit.epi.bris.ac.uk/gh13047/gwas_catalog_standardisation)
+- `proteomic_qtls`: [https://scmv-ieugit.epi.bris.ac.uk/gh13047/proteomic_qtls](https://scmv-ieugit.epi.bris.ac.uk/gh13047/proteomic_qtls)
+- `metab_qtls`: [https://scmv-ieugit.epi.bris.ac.uk/gh13047/metabolomic_qtls](https://scmv-ieugit.epi.bris.ac.uk/gh13047/metabolomic_qtls)
+
+
 ## Maintenance
 
 To add a dataset copy to `/data` as a `.RData` file, and create a corresponding `.R` file in `/R` to enter the documentation for the data. For example, the GTEx data set is documented like this in the `R/eqtl_mrbase.R` file:
