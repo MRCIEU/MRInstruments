@@ -4,6 +4,7 @@ This is an R package that contains a number of data files from various sources t
 
 ```r
 devtools::install_github("MRCIEU/MRInstruments")
+library(MRInstruments) 
 ```
 
 For more information about performing two sample MR see [https://github.com/MRCIEU/TwoSampleMR](https://github.com/MRCIEU/TwoSampleMR)
