@@ -6,22 +6,24 @@
 \title{Data frame of GWAS significant SNPs obtained from the EBI GWAS catalog}
 \format{A data frame with 22783 rows and 17 columns
 \describe{
-      \item{Phenotype}{Phenotype}
+      \item{Phenotype_simple}{Simple phenotype name}
+      \item{Phenotype}{This phenotype also has units and details if they are necessary to distinguish different studies}
       \item{Phenotype_info}{Phenotype_info}
       \item{PubmedID}{PubmedID}
+      \item{Author}{Author}
       \item{Year}{Year}
       \item{SNP}{SNP}
       \item{chr}{chr}
       \item{bp_ens_GRCh38}{bp_ens_GRCh38}
       \item{Region}{Region}
-      \item{Gene}{Gene}
+      \item{gene}{gene}
       \item{Gene_ens}{Gene_ens}
       \item{effect_allele}{effect_allele}
       \item{other_allele}{other_allele}
-      \item{Effect}{Effect}
-      \item{SE}{SE}
-      \item{P_value}{P_value}
-      \item{Units}{Units}
+      \item{beta}{beta}
+      \item{se}{se}
+      \item{pval}{pval}
+      \item{units}{units}
       \item{eaf}{eaf}
 }}
 \source{
