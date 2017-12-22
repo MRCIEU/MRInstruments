@@ -21,6 +21,6 @@
 #'       \item{pval.exposure}{pval.exposure}
 #'       \item{units.exposure}{units.exposure}
 #'       \item{eaf.exposure}{eaf.exposure}
-#'
+#'}
 #' @source \url{http://www.mrbase.org}
 "mrbase_instruments"

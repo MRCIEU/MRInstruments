@@ -4,7 +4,25 @@
 \name{mrbase_instruments}
 \alias{mrbase_instruments}
 \title{Data frame of GWAS significant SNPs obtained from the EBI GWAS catalog}
-\format{An object of class \code{data.table} (inherits from \code{data.frame}) with 41203 rows and 16 columns.}
+\format{A data frame with 41203 rows and 16 columns
+\describe{
+      \item{exposure}{This phenotype also has units and details if they are necessary to distinguish different studies}
+      \item{id.exposure}{id.exposure}
+      \item{samplesize.exposure}{samplesize.exposure}
+      \item{ncase.exposure}{ncase.exposure}
+      \item{ncontrol.exposure}{ncontrol.exposure}
+      \item{mr_keep.exposure}{mr_keep.exposure}
+      \item{pval_origin.exposure}{pval_origin.exposure}
+      \item{data_source.exposure}{data_source.exposure}
+      \item{SNP.exposure}{SNP.exposure}
+      \item{effect_allele.exposure}{effect_allele.exposure}
+      \item{other_allele.exposure}{other_allele.exposure}
+      \item{beta.exposure}{beta.exposure}
+      \item{se.exposure}{se.exposure}
+      \item{pval.exposure}{pval.exposure}
+      \item{units.exposure}{units.exposure}
+      \item{eaf.exposure}{eaf.exposure}
+}}
 \source{
 \url{http://www.mrbase.org}
 }
