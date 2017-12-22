@@ -4,7 +4,7 @@
 \name{mrbase_instruments}
 \alias{mrbase_instruments}
 \title{Data frame of GWAS significant SNPs obtained from the EBI GWAS catalog}
-\format{A data frame with 41203 rows and 16 columns
+\format{A data frame with 29021 rows and 16 columns
 \describe{
       \item{exposure}{This phenotype also has units and details if they are necessary to distinguish different studies}
       \item{id.exposure}{id.exposure}
@@ -31,6 +31,6 @@ mrbase_instruments
 }
 \description{
 Created from the MR-Base database 22/12/2017
-The top hits (5e-8) are extracted from these files and then the 1kg European dataset is used to clump the top hits (rsq = 0.01, kb = 10000)
+The top hits (5e-8) are extracted from these files and then the 1kg European dataset is used to clump the top hits (rsq = 0.001, kb = 10000)
 }
 \keyword{datasets}
