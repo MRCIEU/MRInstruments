@@ -29,4 +29,3 @@ metab_qtls
 Data provided by Peter Wurtz and Mika Ala-Korpela ahead of publication
 }
 \keyword{datasets}
-

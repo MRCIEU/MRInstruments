@@ -38,4 +38,3 @@ mQTL analysis was performed in five time points in mothers and children.
 These data are obtained from \url{http://www.gtexportal.org/home/} (GCTA version).
 }
 \keyword{datasets}
-

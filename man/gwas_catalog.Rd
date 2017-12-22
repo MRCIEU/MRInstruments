@@ -25,6 +25,12 @@
       \item{pval}{pval}
       \item{units}{units}
       \item{eaf}{eaf}
+      \item{date_added_to_MRBASE}{Date GWAS catalog downloaded and added to MR-Base}
+      \item{Initial_sample_description}{Sample size and ancestry description for stage 1 of GWAS (summing across multiple Stage 1 populations, if applicable)}
+      \item{Replication_sample_description}{ Sample size and ancestry description for subsequent replication(s) (summing across multiple populations, if applicable)
+      \item{MAPPED_TRAIT_EFO_URI}{URI of the EFO trait}}
+      \item{MAPPED_TRAIT_EFO}{Mapped Experimental Factor Ontology trait for this study}
+      \item{STUDY.ACCESSION}{Accession ID allocated to a GWAS Catalog study}
 }}
 \source{
 \url{https://scmv-ieugit.epi.bris.ac.uk/gh13047/gwas_catalog_standardisation}
@@ -39,4 +45,3 @@ Effect sizes and standard errors are all converted to log odds ratio for binary 
 Ensembl used to identify alleles and effect allele frequency where missing.
 }
 \keyword{datasets}
-

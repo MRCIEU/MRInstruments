@@ -3,8 +3,8 @@
 \docType{data}
 \name{gtex_eqtl}
 \alias{gtex_eqtl}
-\title{Data frame of eQTLs from GTEx study}
-\format{A data frame with 187263 rows and 11 columns
+\title{Data frame of cis-eQTLs from GTEx study (version 6p)}
+\format{A data frame with 280630 rows and 11 columns
 \describe{
 	\item{gene_name}{Gene name}
 	\item{tissue}{Tissue}
@@ -25,8 +25,7 @@
 gtex_eqtl
 }
 \description{
-A total of 273700 Gene expression - SNP associations from 27094 gene names and 44 tissues. Obtained from \url{http://www.gtexportal.org/home/}.
+Gene expression - SNP associations from 27094 gene names and 44 tissues. Obtained from \url{http://www.gtexportal.org/home/}.
 These data only include associations that GTEx labelled as \code{is_choson_snp}.
 }
 \keyword{datasets}
-

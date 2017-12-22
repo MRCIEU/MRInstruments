@@ -23,4 +23,3 @@ drug_interactions
 List of drug names and the genes that they target, along with information about how they interact and source of information
 }
 \keyword{datasets}
-

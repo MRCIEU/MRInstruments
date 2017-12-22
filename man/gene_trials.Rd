@@ -23,4 +23,3 @@ The drug trial information comes from PMID 26121088 supplementary table 13.
 For a number of genes information is provided about diseases for which they are targeted, and the status of the trials in which they were tested.
 }
 \keyword{datasets}
-

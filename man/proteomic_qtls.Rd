@@ -30,4 +30,3 @@ proteomic_qtls
 GWAS of immunoassays of 190 protein levels from plasma
 }
 \keyword{datasets}
-
