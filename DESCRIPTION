@@ -1,6 +1,6 @@
 Package: MRInstruments
 Title: Data sources for genetic instruments to be used in MR
-Version: 0.3.1
+Version: 0.3.2
 Authors@R: 'Gibran Hemani <g.hemani@bristol.ac.uk> [aut,cre]'
 Description: Datasets of eQTLs, GWAS catalogs, etc
 License: CC0
