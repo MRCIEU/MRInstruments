@@ -13,7 +13,7 @@
 #'       \item{mr_keep.exposure}{mr_keep.exposure}
 #'       \item{pval_origin.exposure}{pval_origin.exposure}
 #'       \item{data_source.exposure}{data_source.exposure}
-#'       \item{SNP.exposure}{SNP.exposure}
+#'       \item{SNP}{SNP}
 #'       \item{effect_allele.exposure}{effect_allele.exposure}
 #'       \item{other_allele.exposure}{other_allele.exposure}
 #'       \item{beta.exposure}{beta.exposure}
