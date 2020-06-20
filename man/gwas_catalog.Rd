@@ -4,34 +4,36 @@
 \name{gwas_catalog}
 \alias{gwas_catalog}
 \title{Data frame of GWAS significant SNPs obtained from the EBI GWAS catalog}
-\format{A data frame with 22783 rows and 17 columns
+\format{
+A data frame with 22783 rows and 17 columns
 \describe{
-      \item{Phenotype_simple}{Simple phenotype name}
-      \item{Phenotype}{This phenotype also has units and details if they are necessary to distinguish different studies}
-      \item{Phenotype_info}{Phenotype_info}
-      \item{PubmedID}{PubmedID}
-      \item{Author}{Author}
-      \item{Year}{Year}
-      \item{SNP}{SNP}
-      \item{chr}{chr}
-      \item{bp_ens_GRCh38}{bp_ens_GRCh38}
-      \item{Region}{Region}
-      \item{gene}{gene}
-      \item{Gene_ens}{Gene_ens}
-      \item{effect_allele}{effect_allele}
-      \item{other_allele}{other_allele}
-      \item{beta}{beta}
-      \item{se}{se}
-      \item{pval}{pval}
-      \item{units}{units}
-      \item{eaf}{eaf}
-      \item{date_added_to_MRBASE}{Date GWAS catalog downloaded and added to MR-Base}
-      \item{Initial_sample_description}{Sample size and ancestry description for stage 1 of GWAS (summing across multiple Stage 1 populations, if applicable)}
-      \item{Replication_sample_description}{ Sample size and ancestry description for subsequent replication(s) (summing across multiple populations, if applicable)
-      \item{MAPPED_TRAIT_EFO_URI}{URI of the EFO trait}}
-      \item{MAPPED_TRAIT_EFO}{Mapped Experimental Factor Ontology trait for this study}
-      \item{STUDY.ACCESSION}{Accession ID allocated to a GWAS Catalog study}
-}}
+\item{Phenotype_simple}{Simple phenotype name}
+\item{Phenotype}{This phenotype also has units and details if they are necessary to distinguish different studies}
+\item{Phenotype_info}{Phenotype_info}
+\item{PubmedID}{PubmedID}
+\item{Author}{Author}
+\item{Year}{Year}
+\item{SNP}{SNP}
+\item{chr}{chr}
+\item{bp_ens_GRCh38}{bp_ens_GRCh38}
+\item{Region}{Region}
+\item{gene}{gene}
+\item{Gene_ens}{Gene_ens}
+\item{effect_allele}{effect_allele}
+\item{other_allele}{other_allele}
+\item{beta}{beta}
+\item{se}{se}
+\item{pval}{pval}
+\item{units}{units}
+\item{eaf}{eaf}
+\item{date_added_to_MRBASE}{Date GWAS catalog downloaded and added to MR-Base}
+\item{Initial_sample_description}{Sample size and ancestry description for stage 1 of GWAS (summing across multiple Stage 1 populations, if applicable)}
+\item{Replication_sample_description}{Sample size and ancestry description for subsequent replication(s) (summing across multiple populations, if applicable)}
+\item{MAPPED_TRAIT_EFO_URI}{URI of the EFO trait}
+\item{MAPPED_TRAIT_EFO}{Mapped Experimental Factor Ontology trait for this study}
+\item{STUDY.ACCESSION}{Accession ID allocated to a GWAS Catalog study}
+}
+}
 \source{
 \url{https://scmv-ieugit.epi.bris.ac.uk/gh13047/gwas_catalog_standardisation}
 }
