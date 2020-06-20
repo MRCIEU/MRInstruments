@@ -1,4 +1,4 @@
-.onLoad <- function(libname, pkgname) {
+.onAttach <- function(libname, pkgname) {
 
 	a <- suppressWarnings(try(readLines("https://raw.githubusercontent.com/MRCIEU/MRInstruments/master/DESCRIPTION"), silent=TRUE))
 
