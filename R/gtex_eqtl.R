@@ -14,7 +14,7 @@
 #'		\item{other_allele}{Non effect allele}
 #'		\item{beta}{Effect size}
 #'		\item{se}{Standard error}
-#'		\item{P_value}{p-value}
+#'		\item{pval}{p-value}
 #'		\item{n}{samplesize}
 #'	}
 #'
