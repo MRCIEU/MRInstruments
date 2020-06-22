@@ -14,6 +14,7 @@
 #'     \item{effect_allele}{effect_allele}
 #'     \item{other_allele}{other_allele}
 #'     \item{eaf}{eaf}
+#'     \item{maf}{MAF}
 #'     \item{pval}{pval}
 #'     \item{beta}{beta}
 #'     \item{se}{se}

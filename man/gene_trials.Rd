@@ -4,14 +4,16 @@
 \name{gene_trials}
 \alias{gene_trials}
 \title{Drug trial information regarding target genes}
-\format{A data frame with 19085 rows and 5 columns
+\format{
+A data frame with 19085 rows and 5 columns
 \describe{
-	\item{drug_proxy}{Binary value for whether used as drug proxy}
-	\item{MeSH1}{MeSH term 1}
-	\item{MeSH2}{Top MeSH term}
-	\item{drug_phase}{Phase of drug development}
-	\item{approved}{Approved in EU or US}
- }}
+\item{entrez_gene_symbol}{Entrez Gene symbol}
+\item{MeSH1}{MeSH term 1}
+\item{MeSH2}{Top MeSH term}
+\item{drug_phase}{Phase of drug development}
+\item{approved}{Approved in EU or US}
+}
+}
 \source{
 \url{http://www.ncbi.nlm.nih.gov/pubmed/26121088}
 }

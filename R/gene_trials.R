@@ -5,7 +5,7 @@
 #'
 #' @format A data frame with 19085 rows and 5 columns
 #'	\describe{
-#'		\item{drug_proxy}{Binary value for whether used as drug proxy}
+#'	  \item{entrez_gene_symbol}{Entrez Gene symbol}
 #'		\item{MeSH1}{MeSH term 1}
 #'		\item{MeSH2}{Top MeSH term}
 #'		\item{drug_phase}{Phase of drug development}
