@@ -1,6 +1,6 @@
 Package: MRInstruments
 Title: Data sources for genetic instruments to be used in MR
-Version: 0.3.2
+Version: 0.3.3
 Authors@R: c(person("Gibran", "Hemani", 
                     email = "g.hemani@bristol.ac.uk", 
                     role = c("aut", "cre"), 
@@ -8,12 +8,13 @@ Authors@R: c(person("Gibran", "Hemani",
 Description: Datasets of eQTLs, GWAS catalogs, etc.
 License: CC0
 LazyData: true
+LazyDataCompression: xz
 Depends:
     R (>= 2.10)
 Suggests:
     dplyr
 URL: https://github.com/MRCIEU/MRInstruments
 BugReports: https://github.com/MRCIEU/MRInstruments/issues
-RoxygenNote: 7.1.0
 Encoding: UTF-8
-Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.1.0
+Config/roxygen2/markdown: TRUE

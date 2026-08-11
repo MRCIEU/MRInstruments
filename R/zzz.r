@@ -2,7 +2,7 @@
 
 	a <- suppressWarnings(try(readLines("https://raw.githubusercontent.com/MRCIEU/MRInstruments/master/DESCRIPTION"), silent=TRUE))
 
-	if(!class(a) == 'try-error')
+	if(!inherits(a, "try-error"))
 	{
 		latest <- gsub("Version: ", "", a[grep("Version", a)])
 		current = utils::packageDescription('MRInstruments')
