@@ -8,6 +8,7 @@ Authors@R: c(person("Gibran", "Hemani",
 Description: Datasets of eQTLs, GWAS catalogs, etc.
 License: CC0
 LazyData: true
+LazyDataCompression: xz
 Depends:
     R (>= 2.10)
 Suggests:
