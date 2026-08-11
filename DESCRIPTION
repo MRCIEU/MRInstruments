@@ -14,6 +14,6 @@ Suggests:
     dplyr
 URL: https://github.com/MRCIEU/MRInstruments
 BugReports: https://github.com/MRCIEU/MRInstruments/issues
-RoxygenNote: 7.1.0
 Encoding: UTF-8
-Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.1.0
+Config/roxygen2/markdown: TRUE
